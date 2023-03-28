@@ -1,9 +1,11 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-int main() {
+int main(void) {
 	
-	cout << "Hello World";
+	printf("Hello\n");
+	char ch;
+	scanf("%c", &ch); // Without an input command visual studio
+	// runs the code and automatically returns to the editor
 	
 	return 0;
 }
